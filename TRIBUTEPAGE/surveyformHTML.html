@@ -1,0 +1,138 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="English">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="HTML,CSS,XML,JavaScript">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container col-md-12">
+          <div class="col-md-4"></div>
+            <div class="container col-md-4">
+              <h1 id="title"><strong>BIO DATA FORM</strong> </h1>
+            </div>
+        </div>
+        <div class="container col-md-12">
+                <div class="col-md-4"></div>
+            <div class="container col-md-4">
+              <p id="description"><strong>BUILD A SURVEY FORM TO COLLECT BIO DATA. </strong></p>
+            </div>
+        </div>
+        <div class="container col-md-12">
+            <div class="col-md-4"></div>
+            <div class="container table-bordered col-md-4">
+                <form action="" id="survey-form">
+<div class="form-group">
+ <br>
+<label for="SURNAME" id="name-label">SURNAME:</label>
+<input type="text" name="name" id="name" required placeholder="Etimudo" maxlength="100"></div>
+                  <div class="form-group">
+                        <br>
+                        <label for="OTHER NAME" id="name-label">OTHER NAME:</label>
+                        <input type="text" name="name" id="name" required placeholder="Udo Effiong" maxlength="100">
+                    </div>
+  <div class="form-group">
+ <label for="email" id="email-label">Email:</label>
+   <input type="email" name="email" id="email" required placeholder="name@email.com">
+                    </div>
+        <div class="form-group">
+         <label for="number" id="number-label">HOUSE NUMBER:</label>
+          <input type="number" name="number" id="number" required placeholder=" " min="1" max="9999">
+                    </div>
+    <div class="form-group">
+                        <label for="Address">ADDRESS:</label>
+  <input type="text" name="ADDRESS" id="ADDRESS" required placeholder="ALAKIA IBADAN"> </div>
+       <div class="form-group">
+       <label for="LOCALITY">LOCALITY:</label>  <input type="text" name="LOCALITY" id="LOCALITY" required placeholder=" " maxlength="200"> </div>
+       <div class="form-group">
+       <label for="CITY">CITY:</label>
+       <input type="text" name="CITY" id="CITY" required placeholder="E.G IBADAN" maxlength="100"> </div>
+      <div class="form-group">
+      <label for="STATE">STATE:</label>
+      <select name="STATE" id="dropdown" class="dropdown" required>
+    <option disabled selected value="">Abia:</option>
+  <option value="">Adamawa</option>
+  <option value="">Akwa Ibom</option>
+  <option value="">Anambra</option>
+  <option value="">Bauchi</option>
+  <option value="">Benue</option>
+  <option value="">Bornu</option>
+  <option value="">Cross river</option>
+  <option value="">Delta</option>
+  <option value="">Ebonyi</option>
+  <option value="">Edo</option>
+  <option value="">Ekiti</option>
+  <option value="">Enugu</option>
+  <option value="">Gombe</option>
+  <option value="">Imo</option>
+  <option value="">Jigawa</option>
+  <option value="">Kaduna</option>
+  <option value="">Kano</option>
+  <option value="">Katsina</option>
+  <option value="">Kebbi</option>
+  <option value="">Kogi</option>
+  <option value="">Kwara</option>
+  <option value="">Lagos</option>
+  <option value="">Nasarawa</option>
+  <option value="">Niger</option>
+  <option value="">Ogun</option>
+  <option value="">Ondo</option>
+  <option value="">Osun</option>
+  <option value="">Oyo</option>
+  <option value="">Plateau</option>
+  <option value="">Rivers</option>
+  <option value="">Sokoto</option>
+  <option value="">Taraba</option>
+  <option value="">Yobe</option>
+  <option value="">Zamfara</option>
+  <option value="">Abuja</option>
+                      </select>
+                    </div>
+       <div class="form-group">
+                        <label for="Sex">Sex:</label>
+                    </div>
+   <div class="form-group">
+                        <label for="male">MALE</label>
+ <input type="radio" name="radio-buttons" value="male" checked required>
+   <label for="female">FEMALE</label>
+   <input type="radio" name="radio-buttons" value="female"></div>
+   <div class="form-group">
+     <label>EDUCATION:</label>
+   <div class="checkbox">
+ <label> <input type="checkbox" name="elementary" value="elementary education"> PRIMARY EDUCATION</label></div>
+    <div class="checkbox">
+	<label> <input type="checkbox" name="junior secondary" value="JUNIOR SECONDARY"> JUNIOR SECONDARY</label></div>
+ <div class="checkbox">
+ <label> <input type="checkbox" name="SENIOR SECONDARY" value="SENIOR SECONDARY"> SENIOR SECONDARY</label></div> 
+ <div class="checkbox"> 
+ <label> <input type="checkbox" name="UNDERGRADAUTE" value="UNDERGRADAUTE"> UNDERGRADUATE </label> </div> 
+ <div class="checkbox"> 
+ <label> <input type="checkbox" name="POST GRADUATE" value="POST GRADUATE"> POST GRADUATE </label> </div> 
+ <div class="checkbox">
+ <label> <input type="checkbox" name="POST DOCTORIAL" value="POST DOCTORIAL"> POST DOCTORIAL </label> </div> 
+   </div> 
+   <div class="form-group">
+     <label>CONCLUSION:</label>
+  <div class="container"> <label for="REMARK">COMMENT AND REMARK</label></div>
+  <div class="container">
+  <textarea name="COMMENT" id="COMMENT" rows="10" required></textarea> </div>
+  </div>
+   <div class="container">                     <br>
+   <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
